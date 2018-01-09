@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FED69FC20045AD300BA79A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED69FB20045AD300BA79A5 /* AppDelegate.m */; };
+		2FED69FF20045AD300BA79A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED69FE20045AD300BA79A5 /* ViewController.m */; };
+		2FED6A0220045AD300BA79A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FED6A0020045AD300BA79A5 /* Main.storyboard */; };
+		2FED6A0420045AD300BA79A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FED6A0320045AD300BA79A5 /* Assets.xcassets */; };
+		2FED6A0720045AD300BA79A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FED6A0520045AD300BA79A5 /* LaunchScreen.storyboard */; };
+		2FED6A0A20045AD300BA79A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED6A0920045AD300BA79A5 /* main.m */; };
+		2FED6A152004622300BA79A5 /* YRPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED6A142004622300BA79A5 /* YRPopViewController.m */; };
+		2FED6A182004664600BA79A5 /* YRPopCenterAnimationControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED6A172004664600BA79A5 /* YRPopCenterAnimationControl.m */; };
+		2FED6A1B2004666500BA79A5 /* YRPopUpDownAnimationControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED6A1A2004666500BA79A5 /* YRPopUpDownAnimationControl.m */; };
+		2FED6A3A20046D7200BA79A5 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED6A3020046D7200BA79A5 /* UIImage+ImageEffects.m */; };
+		2FED6A3B20046D7200BA79A5 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED6A3220046D7200BA79A5 /* UIImageView+LBBlurredImage.m */; };
+		2FED6A3C20046D7200BA79A5 /* UIView+SnapImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED6A3420046D7200BA79A5 /* UIView+SnapImage.m */; };
+		2FED6A4220046F9900BA79A5 /* YRBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED6A4120046F9900BA79A5 /* YRBlurView.m */; };
+		2FED6A452004891C00BA79A5 /* YRPopAnimationControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED6A442004891C00BA79A5 /* YRPopAnimationControl.m */; };
+		2FED6A4820048D9400BA79A5 /* YRPopDownUpAnimationControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED6A4720048D9400BA79A5 /* YRPopDownUpAnimationControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FED69F720045AD300BA79A5 /* ModeVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModeVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FED69FA20045AD300BA79A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FED69FB20045AD300BA79A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FED69FD20045AD300BA79A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FED69FE20045AD300BA79A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FED6A0120045AD300BA79A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FED6A0320045AD300BA79A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FED6A0620045AD300BA79A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FED6A0820045AD300BA79A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FED6A0920045AD300BA79A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FED6A132004622300BA79A5 /* YRPopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRPopViewController.h; sourceTree = "<group>"; };
+		2FED6A142004622300BA79A5 /* YRPopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRPopViewController.m; sourceTree = "<group>"; };
+		2FED6A162004664600BA79A5 /* YRPopCenterAnimationControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRPopCenterAnimationControl.h; sourceTree = "<group>"; };
+		2FED6A172004664600BA79A5 /* YRPopCenterAnimationControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRPopCenterAnimationControl.m; sourceTree = "<group>"; };
+		2FED6A192004666500BA79A5 /* YRPopUpDownAnimationControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRPopUpDownAnimationControl.h; sourceTree = "<group>"; };
+		2FED6A1A2004666500BA79A5 /* YRPopUpDownAnimationControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRPopUpDownAnimationControl.m; sourceTree = "<group>"; };
+		2FED6A2F20046D7200BA79A5 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		2FED6A3020046D7200BA79A5 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		2FED6A3120046D7200BA79A5 /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+		2FED6A3220046D7200BA79A5 /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+		2FED6A3320046D7200BA79A5 /* UIView+SnapImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SnapImage.h"; sourceTree = "<group>"; };
+		2FED6A3420046D7200BA79A5 /* UIView+SnapImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SnapImage.m"; sourceTree = "<group>"; };
+		2FED6A4020046F9900BA79A5 /* YRBlurView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRBlurView.h; sourceTree = "<group>"; };
+		2FED6A4120046F9900BA79A5 /* YRBlurView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRBlurView.m; sourceTree = "<group>"; };
+		2FED6A432004891C00BA79A5 /* YRPopAnimationControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRPopAnimationControl.h; sourceTree = "<group>"; };
+		2FED6A442004891C00BA79A5 /* YRPopAnimationControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRPopAnimationControl.m; sourceTree = "<group>"; };
+		2FED6A4620048D9400BA79A5 /* YRPopDownUpAnimationControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRPopDownUpAnimationControl.h; sourceTree = "<group>"; };
+		2FED6A4720048D9400BA79A5 /* YRPopDownUpAnimationControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRPopDownUpAnimationControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FED69F420045AD200BA79A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FED69EE20045AD200BA79A5 = {
+			isa = PBXGroup;
+			children = (
+				2FED69F920045AD300BA79A5 /* ModeVC */,
+				2FED69F820045AD300BA79A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FED69F820045AD300BA79A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FED69F720045AD300BA79A5 /* ModeVC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FED69F920045AD300BA79A5 /* ModeVC */ = {
+			isa = PBXGroup;
+			children = (
+				2FED6A2E20046D7200BA79A5 /* LBBlurredImage */,
+				2FED69FA20045AD300BA79A5 /* AppDelegate.h */,
+				2FED69FB20045AD300BA79A5 /* AppDelegate.m */,
+				2FED69FD20045AD300BA79A5 /* ViewController.h */,
+				2FED69FE20045AD300BA79A5 /* ViewController.m */,
+				2FED6A132004622300BA79A5 /* YRPopViewController.h */,
+				2FED6A142004622300BA79A5 /* YRPopViewController.m */,
+				2FED6A4020046F9900BA79A5 /* YRBlurView.h */,
+				2FED6A4120046F9900BA79A5 /* YRBlurView.m */,
+				2FED6A432004891C00BA79A5 /* YRPopAnimationControl.h */,
+				2FED6A442004891C00BA79A5 /* YRPopAnimationControl.m */,
+				2FED6A162004664600BA79A5 /* YRPopCenterAnimationControl.h */,
+				2FED6A172004664600BA79A5 /* YRPopCenterAnimationControl.m */,
+				2FED6A192004666500BA79A5 /* YRPopUpDownAnimationControl.h */,
+				2FED6A1A2004666500BA79A5 /* YRPopUpDownAnimationControl.m */,
+				2FED6A4620048D9400BA79A5 /* YRPopDownUpAnimationControl.h */,
+				2FED6A4720048D9400BA79A5 /* YRPopDownUpAnimationControl.m */,
+				2FED6A0020045AD300BA79A5 /* Main.storyboard */,
+				2FED6A0320045AD300BA79A5 /* Assets.xcassets */,
+				2FED6A0520045AD300BA79A5 /* LaunchScreen.storyboard */,
+				2FED6A0820045AD300BA79A5 /* Info.plist */,
+				2FED6A0920045AD300BA79A5 /* main.m */,
+			);
+			path = ModeVC;
+			sourceTree = "<group>";
+		};
+		2FED6A2E20046D7200BA79A5 /* LBBlurredImage */ = {
+			isa = PBXGroup;
+			children = (
+				2FED6A2F20046D7200BA79A5 /* UIImage+ImageEffects.h */,
+				2FED6A3020046D7200BA79A5 /* UIImage+ImageEffects.m */,
+				2FED6A3120046D7200BA79A5 /* UIImageView+LBBlurredImage.h */,
+				2FED6A3220046D7200BA79A5 /* UIImageView+LBBlurredImage.m */,
+				2FED6A3320046D7200BA79A5 /* UIView+SnapImage.h */,
+				2FED6A3420046D7200BA79A5 /* UIView+SnapImage.m */,
+			);
+			path = LBBlurredImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FED69F620045AD200BA79A5 /* ModeVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FED6A0D20045AD300BA79A5 /* Build configuration list for PBXNativeTarget "ModeVC" */;
+			buildPhases = (
+				2FED69F320045AD200BA79A5 /* Sources */,
+				2FED69F420045AD200BA79A5 /* Frameworks */,
+				2FED69F520045AD200BA79A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModeVC;
+			productName = ModeVC;
+			productReference = 2FED69F720045AD300BA79A5 /* ModeVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FED69EF20045AD200BA79A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yangrui;
+				TargetAttributes = {
+					2FED69F620045AD200BA79A5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2FED69F220045AD200BA79A5 /* Build configuration list for PBXProject "ModeVC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FED69EE20045AD200BA79A5;
+			productRefGroup = 2FED69F820045AD300BA79A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FED69F620045AD200BA79A5 /* ModeVC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FED69F520045AD200BA79A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FED6A0720045AD300BA79A5 /* LaunchScreen.storyboard in Resources */,
+				2FED6A0420045AD300BA79A5 /* Assets.xcassets in Resources */,
+				2FED6A0220045AD300BA79A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FED69F320045AD200BA79A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FED6A3C20046D7200BA79A5 /* UIView+SnapImage.m in Sources */,
+				2FED6A452004891C00BA79A5 /* YRPopAnimationControl.m in Sources */,
+				2FED6A1B2004666500BA79A5 /* YRPopUpDownAnimationControl.m in Sources */,
+				2FED69FF20045AD300BA79A5 /* ViewController.m in Sources */,
+				2FED6A4820048D9400BA79A5 /* YRPopDownUpAnimationControl.m in Sources */,
+				2FED6A3A20046D7200BA79A5 /* UIImage+ImageEffects.m in Sources */,
+				2FED6A152004622300BA79A5 /* YRPopViewController.m in Sources */,
+				2FED6A4220046F9900BA79A5 /* YRBlurView.m in Sources */,
+				2FED6A0A20045AD300BA79A5 /* main.m in Sources */,
+				2FED6A182004664600BA79A5 /* YRPopCenterAnimationControl.m in Sources */,
+				2FED69FC20045AD300BA79A5 /* AppDelegate.m in Sources */,
+				2FED6A3B20046D7200BA79A5 /* UIImageView+LBBlurredImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FED6A0020045AD300BA79A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FED6A0120045AD300BA79A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FED6A0520045AD300BA79A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FED6A0620045AD300BA79A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FED6A0B20045AD300BA79A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FED6A0C20045AD300BA79A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FED6A0E20045AD300BA79A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModeVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yr.ModeVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FED6A0F20045AD300BA79A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModeVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yr.ModeVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FED69F220045AD200BA79A5 /* Build configuration list for PBXProject "ModeVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FED6A0B20045AD300BA79A5 /* Debug */,
+				2FED6A0C20045AD300BA79A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FED6A0D20045AD300BA79A5 /* Build configuration list for PBXNativeTarget "ModeVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FED6A0E20045AD300BA79A5 /* Debug */,
+				2FED6A0F20045AD300BA79A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FED69EF20045AD200BA79A5 /* Project object */;
+}

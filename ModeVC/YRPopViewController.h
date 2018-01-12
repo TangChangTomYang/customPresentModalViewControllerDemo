@@ -9,16 +9,19 @@
 #import <UIKit/UIKit.h>
 #import "YRBlurView.h"
 typedef NS_ENUM(NSUInteger, KPopAnimationType){
-    KPopAnimationTypeCenterShow = 0,   // 从中间放大弹出
-    KPopAnimationTypeUpDown,            // 从上往下掉
-    KPopAnimationTypeDownUp            //
+    KPopAnimationType_none,
+    KPopAnimationTypeCenterShow = 1,   // 从中间放大弹出
+    
 };
 
 
 @interface YRPopViewController : UIViewController
 
-@property (nonatomic, assign) KPopAnimationType animationType;
+@property(nonatomic, assign) KPopAnimationType animationType;
+// 可以不设置
+@property(nonatomic, assign)CGPoint touchPoint;
+
 @property(nonatomic, strong)YRBlurView *blurView;
 @property(nonatomic, strong)UIView *contentView;
-@property(nonatomic, assign)CGPoint touchPoint;
+
 @end

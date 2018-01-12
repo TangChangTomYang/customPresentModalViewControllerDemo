@@ -20,16 +20,26 @@
 @implementation YRPopViewController
 
 
--(instancetype)init{
-   self = [super init];
-    if (self) {
+//-(instancetype)init{
+//   self = [super init];
+//    if (self) {
+//        self.transitioningDelegate = self;
+//        self.modalPresentationStyle = UIModalPresentationCustom;
+//    }
+//    return self;
+//}
+
+-(void)setAnimationType:(KPopAnimationType)animationType{
+    _animationType = animationType;
+    if (animationType == KPopAnimationTypeCenterShow) {//自定义
         self.transitioningDelegate = self;
         self.modalPresentationStyle = UIModalPresentationCustom;
-        
     }
-    return self;
+    else{ // 系统
+        self.transitioningDelegate = nil;
+        self.modalPresentationStyle = UIModalPresentationNone;
+    }
 }
-
 
 -(UIView *)contentView{
     if (!_contentView) {
@@ -79,40 +89,41 @@
 #pragma mark -- UIViewControllerTransitioningDelegate 
 - (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source
 {
-    switch (self.animationType) {
-        case KPopAnimationTypeCenterShow:       // 从中间放大弹出
-            return [[YRPopCenterAnimationControl alloc] init];
-            break;
-            
-        case KPopAnimationTypeUpDown:           // 从上往下掉
-            return [[YRPopUpDownAnimationControl alloc] init];
-            break;
-        case KPopAnimationTypeDownUp:           
-            return [[YRPopDownUpAnimationControl alloc] init];
-            break;
-            
-        default:
-            break;
-    }
+    return [[YRPopCenterAnimationControl alloc] init];
+//    switch (self.animationType) {
+//        case KPopAnimationTypeCenterShow:       // 从中间放大弹出
+//            return [[YRPopCenterAnimationControl alloc] init];
+//            break;
+//
+//        case KPopAnimationTypeUpDown:           // 从上往下掉
+//            return [[YRPopUpDownAnimationControl alloc] init];
+//            break;
+//        case KPopAnimationTypeDownUp:
+//            return [[YRPopDownUpAnimationControl alloc] init];
+//            break;
+//
+//        default:
+//            break;
+//    }
 }
 
 - (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed{
-    
-    switch (self.animationType) {
-        case KPopAnimationTypeCenterShow:       // 从中间放大弹出
-            return [[YRPopCenterAnimationControl alloc] init];
-            break;
-            
-        case KPopAnimationTypeUpDown:           // 从上往下掉
-            return [[YRPopUpDownAnimationControl alloc] init];
-            break;
-        case KPopAnimationTypeDownUp:
-            return [[YRPopDownUpAnimationControl alloc] init];
-            break;
-            
-        default:
-            break;
-    }
+    return [[YRPopCenterAnimationControl alloc] init];
+//    switch (self.animationType) {
+//        case KPopAnimationTypeCenterShow:       // 从中间放大弹出
+//            return [[YRPopCenterAnimationControl alloc] init];
+//            break;
+//
+//        case KPopAnimationTypeUpDown:           // 从上往下掉
+//            return [[YRPopUpDownAnimationControl alloc] init];
+//            break;
+//        case KPopAnimationTypeDownUp:
+//            return [[YRPopDownUpAnimationControl alloc] init];
+//            break;
+//
+//        default:
+//            break;
+//    }
 }
 
 @end
